@@ -1,5 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+
+  /* changes */
+  text-align: center;
 }
 
 img {
@@ -13,7 +16,7 @@ img {
 
   /* changes */
   margin-bottom: 32px;
-  text-align: center;
+  
 }
 
 /* do not edit this footer */
@@ -30,21 +33,13 @@ img {
 }
 
 /* change */
-.text{
-  text-align: center;
-}
-
 
 .all{
+  justify-content: center;
   display: flex;
   gap: 52px;
-  align-items: center;
-
 }
+
 .barberry, .chili, .pepper, .saffron{
   max-width: 200px;
-  justify-content: space-evenly;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
