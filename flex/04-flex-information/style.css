@@ -10,6 +10,10 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  /* changes */
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 /* do not edit this footer */
@@ -23,4 +27,24 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* change */
+.text{
+  text-align: center;
+}
+
+
+.all{
+  display: flex;
+  gap: 52px;
+  align-items: center;
+
+}
+.barberry, .chili, .pepper, .saffron{
+  max-width: 200px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
