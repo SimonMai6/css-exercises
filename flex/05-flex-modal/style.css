@@ -39,6 +39,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  
+  /* changes */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -79,19 +83,16 @@ button.cancel {
 
 
 
-.top{
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 100;
-  justify-content: space-evenly;
-  gap:10px;
-}
-
-
 .header {
   font-size: 18px;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.text{
+  margin-bottom: 16px;
 }
 
